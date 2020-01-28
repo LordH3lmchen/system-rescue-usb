@@ -32,6 +32,7 @@ elinks
 ethtool
 exfat-utils
 f2fs-tools
+fakeroot
 file
 filesystem
 findutils
@@ -69,7 +70,6 @@ joe
 keepassxc
 lftp
 licenses
-lightdm
 linux-atm
 linux-firmware
 linux-lts
@@ -77,14 +77,17 @@ lshw
 lsof
 lsscsi
 lvm2
+lxdm
 lzip
 man-db
 man-pages
+make
 mc
 mdadm
 memtester
 mkinitcpio
 mlocate
+mplayer
 mtools
 nano
 ncdu
