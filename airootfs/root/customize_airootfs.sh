@@ -28,10 +28,10 @@ sudo -u billie git clone https://aur.archlinux.org/flat-remix-gtk.git
 sudo -u billie git clone https://aur.archlinux.org/flat-remix.git
 cd /tmp/flat-remix-gtk
 sudo -u billie makepkg
-pacman -U flat-remix-gtk-*-any.pkg.tar.xz
+pacman -U --noconfirm flat-remix-gtk-*-any.pkg.tar.xz
 cd /tmp/flat-remix
 sudo -u billie makepkg
-pacman -U flat-remix*any.pkg.tar.xz
+pacman -U --noconfirm flat-remix*any.pkg.tar.xz
 
 systemctl enable pacman-init.service choose-mirror.service
 systemctl enable NetworkManager.service
