@@ -1,14 +1,11 @@
-# Billie Eilish Linux
+# System Rescue USB
 
- Hannah Montana Linux is outdated, lets build a modern replacement.
+![System-Rescue-USB](https://github.com/LordH3lmchen/eilish-linux/blob/master/images/Screenshot.png)
 
-![eilish-linux](https://github.com/LordH3lmchen/eilish-linux/blob/master/images/Screenshot.png)
+System Rescue USB is a modified Arch Linux live cd. It is build as a rescue tool. I was looking for a Live CD to install Arch Linux. I found system-rescue-cd.org, but I wasn't satisfied with the system. I decided to build my own customized version, after I realized how easy it is to compile and customize your own Arch Linux iso.
 
-Is a modified Arch Linux live cd. It is build to rescue
-and destroy files. To install Arch Linux.
-
-It is not booting to a root shell. It is configured to boot into a LXDE desktop using an
-unprivilged user. You can use **sudo** to get root priviges. It uses fish as default shell. tmux is configured with mouse support.
+It is configured to boot into a LXDE desktop using an
+unprivilged user. You can use **sudo** to get root priviges. It uses fish as default shell. tmux is configured with mouse support. I have no plans to keep the iso small.
 
 ## Creating a boot media
 
@@ -87,7 +84,7 @@ pacman -S archiso
 Clone this Repository
 
 ```bash
-git clone git@github.com:LordH3lmchen/eilish-linux.git
+git clone https://github.com/LordH3lmchen/system-rescue-usb.git
 ```
 
 Run the buidl script.
