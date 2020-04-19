@@ -1,1 +1,1 @@
-dotfiles/bash/.bash_logout
+.dotfiles/bash/.bash_logout
